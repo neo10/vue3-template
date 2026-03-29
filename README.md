@@ -1,4 +1,4 @@
-# Vue3 Template
+# Vue 3 Template
 
 A clean, minimal Vue 3 starter template with modern defaults:
 
@@ -57,17 +57,7 @@ src/
 - Do not call APIs directly from many components
 - Never expose external API secrets in frontend code
 
-## Use as a GitHub Template
+## Notes
 
-1. Push this project to a GitHub repository
-2. Enable **Template repository** in GitHub settings
-3. Create new projects from this template
-
-Or clone without git history using `degit`:
-
-```bash
-npx degit <your-user>/<your-template-repo> my-new-project
-cd my-new-project
-npm install
-npm run dev
-```
+- This repository is intended as a reusable frontend starter.
+- If you use third-party APIs, keep secrets on the backend side only.
